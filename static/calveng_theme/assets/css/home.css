@@ -1,0 +1,84 @@
+﻿#CalvEngSlogan {
+	margin: auto;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 25%;
+	text-align: center;
+	font-style: italic;
+	height: 130px;
+	width: 600px;	
+	opacity:0;
+	/*Fade the box in after the traces are drawn*/	
+	-webkit-animation-name: slogan; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: slogan;
+    animation-duration: 2s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes slogan {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+/* Standard syntax */
+@keyframes slogan {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#CalvEngLogo {
+	position: relative;
+	margin-left: 5%;
+}
+
+#CalvEngLogo > svg {
+	width: 100%;
+}
+
+.jumbotron{
+	text-align: center;
+	padding-left: 3%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#section-what-we-do{
+	position: relative;
+/*	background: url("../images/bit_the_robodog.png") no-repeat center center fixed;	*/
+	height: 400px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+
+#section-what-we-do > .well{
+	position: absolute;
+	left: 2.5%;
+	top: 5%;
+	opacity: .8;
+}
+#section-what-we-do  span{
+	font-size:30px;
+	vertical-align: middle;
+}
+
+#section-what-we-do .fa{
+	border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+}
+
+#section-check-out-our-work .fa{
+    text-align: center;
+}
